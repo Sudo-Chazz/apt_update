@@ -3,7 +3,7 @@
 
 I mainly use this on kali but it should work well with any other distro relying on apt.
 
-###A couple precautions - you can choose to follow them if you wish
+### A couple precautions - you can choose to follow them if you wish
 --------------------------------------------------------------------------------------------------
 * I make the file hidden (.update.sh)
 * change ownership of the script to that of root ```chown 0:0 /root/.update.sh```
