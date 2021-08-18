@@ -1,7 +1,7 @@
 # apt_update
 ## a simple update script for Advanced Packaging Tool (apt)
 
-I mainly use this on kali but it should work well with any other distro relying on apt.
+I mainly use this on kali but it will work well with any other distro relying on apt.
 
 ### A couple precautions - you can choose to follow them if you wish
 --------------------------------------------------------------------------------------------------
