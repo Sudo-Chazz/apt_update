@@ -9,7 +9,7 @@ PS4='LINENO:'
 
 
 
-list_of_commands=(
+commands=(
 'apt update -y'
 'apt upgrade -y'
 'apt dist-upgrade -y'
@@ -20,7 +20,7 @@ list_of_commands=(
 )
 
 system_update(){
-for CMD in "${list_of_commands[@]}"
+for CMD in "${commands[@]}"
 do
         echo "===================="
         echo "Executing $CMD"
@@ -52,4 +52,4 @@ then
 fi
 }
 
-system-update
+system_update
